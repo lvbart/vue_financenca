@@ -2,7 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 import Home from '../views/home/Home.vue';
-import Cart from '../views/cart/Cart.vue';
+import Documents from '../views/documents/Documents.vue';
 import Sort from '../views/sort/Sort.vue';
 import My from '../views/my/My.vue';
 
@@ -14,8 +14,8 @@ const routes = [
     component: Home,
   },
   {
-    path: '/cart',
-    component: Cart,
+    path: '/documents',
+    component: Documents,
   },
   {
     path: '/sort',

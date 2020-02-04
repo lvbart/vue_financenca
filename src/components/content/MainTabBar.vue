@@ -10,10 +10,10 @@
         <img slot="item-icon-active" src="../../assets/img/tabbar/sort-select.svg" alt="">
         <div slot="item-text">Sort</div>
       </tab-bar-item>
-      <tab-bar-item path="cart">
-        <img slot="item-icon" src="../../assets/img/tabbar/cart.svg" alt="">
-        <img slot="item-icon-active" src="../../assets/img/tabbar/cart-select.svg" alt="">
-        <div slot="item-text">Cart</div>
+      <tab-bar-item path="documents">
+        <img slot="item-icon" src="../../assets/img/tabbar/documents.svg" alt="">
+        <img slot="item-icon-active" src="../../assets/img/tabbar/documents-select.svg" alt="">
+        <div slot="item-text">Documents</div>
       </tab-bar-item>
       <tab-bar-item path="my">
         <img slot="item-icon" src="../../assets/img/tabbar/my.svg" alt="">
@@ -25,8 +25,8 @@
 
 <script>
 
-import TabBar from './tabbar/TabBar.vue';
-import TabBarItem from './tabbar/TabBarItem.vue';
+import TabBar from '../common/tabbar/TabBar.vue';
+import TabBarItem from '../common/tabbar/TabBarItem.vue';
 
 export default {
   name: 'MainTabBar',
