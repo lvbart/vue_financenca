@@ -2,13 +2,13 @@ import {request} from './request'
 
 export function getHomeMultiData() {
   return request({
-    url:'/test/getBanners'
+    url:'/home/multidata'
   });
 }
 
 export function getGoodsData(type, page) {
   return request({
-    url:'/test/getGoods',
+    url:'/home/data',
     params:{
       type,
       page

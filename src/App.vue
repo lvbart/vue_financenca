@@ -9,12 +9,14 @@
 <script>
 import MainTabBar from './components/content/MainTabBar.vue'
 import NavBar from './components/common/navbar/NavBar.vue'
+import Home from './views/home/Home.vue'
 
 export default {
   name: 'app',
   components: {
     MainTabBar,
-    NavBar
+    NavBar,
+    Home,
   }
 }
 </script>
