@@ -1,5 +1,5 @@
 <template>
-  <div class="tab-control">
+  <div class="tab-control text-xl grid grid-cols-3">
     <div v-bind:key="item.id" v-for="item in titles"
     class="tab-control-item" :class="{active: index === currentIndex}" @click="itemClick(index)">
       <span>{{item}}</span>
@@ -34,23 +34,5 @@ export default {
 </script>
 
 <style>
-  .tab-control {
-    display: flex;
-    text-align: center;
-    font-size: 15px;
-    height: 40px;
-    line-height: 40px;
-    position: sticky;
-    top: 100px;
-  }
-
-  .tab-control-item {
-    flex: 1;
-  }
-
-  .active {
-    color: var(--color-high-text);
-    border-bottom: 3px solid var(--color-tint)
-  }
 
 </style>
